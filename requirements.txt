@@ -1,0 +1,11 @@
+torch
+torchvision
+transformers
+peft
+bitsandbytes
+fastapi
+streamlit
+tqdm
+numpy 
+pandas 
+matplotlib

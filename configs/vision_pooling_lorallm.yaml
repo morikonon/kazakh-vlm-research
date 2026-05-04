@@ -1,0 +1,21 @@
+model:
+  name: "Vision Encoder Model + Pooling and MLP Models + LoRA LLM Model"
+  llm_model_name: "issai/LLama-3.1-KazLLM-1.0-8B"
+  vision_model_name: "google/siglip-so400m-patch14-384"
+
+  device: "cuda"
+
+  configuration:
+    input_dim: 1152
+    hidden_dim: 16872
+    output_dim: 4080
+
+    num_epochs: 1
+
+    lora_rank: 16
+    alpha_rank: 32
+    target_modules: ["q_proj", "k_proj", "v_proj"]
+    lora_dropout: 0.01
+
+    max_length: 128
+
