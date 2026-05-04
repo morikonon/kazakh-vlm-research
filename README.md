@@ -1,1 +1,1 @@
-# Kazakh Vision Language Models Reseasrch
+# Kazakh Vision Language Models Reseasrch# kazakh-vlm-research
