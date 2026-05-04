@@ -100,4 +100,9 @@ def split_data(dataset, train_size: int = 0.9, val_size: int = 0.05 test_size: i
 
 	return train_dataset, val_dataset, test_size
 
-def get_dataloader():
+def get_dataloader(dataset, batch_size: int = 1):
+	train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+	val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
+	test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+
+	return train_loader, val_loader, test_loader
