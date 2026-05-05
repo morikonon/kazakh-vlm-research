@@ -160,6 +160,20 @@ python src/data/preprocess_data.py
 python src/training/inference.py
 ```
 
+
+## Scripts
+
+Common project commands are available in the `scripts/` directory.
+
+```bash
+bash scripts/preprocess.sh
+bash scripts/train_linear.sh
+bash scripts/train_abstractor.sh
+bash scripts/train_lora.sh
+bash scripts/evaluate.sh
+bash scripts/inference.sh
+```
+
 ## Configuration
 
 Model settings are stored in the `configs/` directory.
