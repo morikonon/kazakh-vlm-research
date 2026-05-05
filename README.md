@@ -41,6 +41,8 @@ Example sample:
         "Тортты ашпақ пышағының арқасымен таңбалап отырған әйел."
     ]
 }
+```
+
 ## Dataset Fields
 
 | Field | Description |
@@ -66,6 +68,7 @@ Projection Layer / Abstractor
 Kazakh Language Model
   ↓
 Kazakh Caption / Answer
+```
 
 The project explores several alignment strategies:
 
