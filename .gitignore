@@ -5,3 +5,8 @@ data/
 checkpoints/
 models/
 .env
+
+*.pt
+*.pth
+*.bin
+*.safetensors
